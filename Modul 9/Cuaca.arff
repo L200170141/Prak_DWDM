@@ -1,0 +1,16 @@
+@relation Cuaca
+
+@attribute Cuaca{Cerah, Mendung, Hujan}
+@attribute Suhu real
+@attribute Kelembaban_Udara real
+@attribute Berangin {Ya,Tidak}
+@attribute Bermain_Tenis {Ya,Tidak}
+
+@data
+Cerah, 75, 65, Tidak, Ya 
+Cerah, 80, 68, Ya, Ya
+Cerah, 83, 87, Ya, Tidak
+Mendung, 70, 96, Tidak, Ya
+Mendung, 68, 81, Tidak, Ya
+Hujan, 65, 75, Tidak, Ya
+Hujan, 64, 85, Ya, Tidak
